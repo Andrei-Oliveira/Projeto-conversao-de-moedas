@@ -1,0 +1,149 @@
+
+
+*{
+    margin-top: 30px;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Roboto', sans-serif;
+outline: none;
+}
+
+body {
+    background-color:#F4F4F4;
+ }
+ .logo-money {
+    Width:250px;
+    display:inline;
+    margin-left: 1300px;
+    position:absolute;
+    margin-top: 180px;
+
+ }
+ .logo-money2{
+    Width:250px;
+    display:inline;
+    margin-left: 280px;
+    position:absolute;
+    margin-top: 180px;
+ }
+
+  header {
+    
+    margin-top: 30px ;
+    margin-left: 640px;
+    
+    display: block;
+    font-weight: 700;
+    font-size: 50px;
+    
+
+  }
+
+
+ 
+ main{
+    
+    width: 375px;
+    height: 712px;
+    background:  #E5E5E5;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 700px;
+    margin-bottom: 40px;
+    padding: 44px 24px 23px;
+    display: inline-block;
+    position: relative;
+    
+}
+
+label {
+    color: #555555;
+    font-weight: 400;
+    font-size: 14px;
+    
+}
+
+select, input {
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    height: 48px;
+    width: 100%;
+    margin-bottom: 24px;
+    appearance: none;
+    padding-left: 18px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #555555;
+    cursor: pointer;
+
+
+
+}
+
+button{
+    position: absolute;
+width: 327px;
+height: 48px;
+left: 24px;
+top: 329px;
+background:#92c932;
+border-radius: 5px;
+font-weight: 700;
+font-size: 18px;
+border: none;
+cursor: pointer;
+color:#555555
+
+}
+button:hover{
+    opacity: 0.8;
+}
+button:active{
+    opacity: 0.6;
+}
+
+section{
+    box-sizing: border-box;
+
+position: absolute;
+width: 327px;
+height: 276px;
+left: 24px;
+top: 413px;
+
+border: 1px solid #92c932;
+border-radius: 20px;
+padding: 12px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+
+.arrow {
+    width: 35px;
+    margin: 15px 0;
+}
+.currency-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    font-weight: 400;
+font-size: 18px;
+line-height: 18px;
+color: #777777;
+}
+.value-convert, .value-to-convert{
+    font-weight: 700;
+font-size: 20px;
+line-height: 18px;
+color: #555555;
+}
+
+
+
+
+
