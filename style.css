@@ -148,7 +148,7 @@ color: #555555;
     header {
     
         margin-top: 30px ;
-        margin-left: 200px;
+        margin-left: 60px;
         
         display:block;
         font-weight: 700;
@@ -178,9 +178,7 @@ color: #555555;
         height: 712px;
         background:  #E5E5E5;
         border-radius: 20px;
-        margin-top: 20px;
-        margin-left: 100px;
-        margin-bottom: 40px;
+       margin:10px 15px 12px 15px;
         padding: 44px 24px 23px;
         display: inline-block;
         position: relative;
