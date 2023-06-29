@@ -23,6 +23,14 @@ async function convertValues() {
       currency: "USD",      
     }).format(inputCurrencyValue / valorMoeda);
   }
+  
+  if (currencySelect.value == "USD") {
+    const valorMoeda = dados.USDBRL.low
+    cunrrencyValueConverted.innerHTML = new Intl.NumberFormat("en-US", {
+      style: "currency",
+      currency: "USD",      
+    }).format(inputCurrencyValue / valorMoeda);
+  }
   if (currencySelect.value == "EUR") {
     const valorMoeda = dados.EURBRL.low
     cunrrencyValueConverted.innerHTML = new Intl.NumberFormat("de-DE", {
@@ -59,7 +67,7 @@ function changeCurrency() {
     currencyName.innerHTML = "Dólar americano";
     currencyImage.src = "./assets/dolar.png";
   }
-  if ((currencySelect, currencySelectOne.value == "dolar")) {
+  if ((currencySelect.value == "USD")) {
     currencyName.innerHTML = "Dólar americano";
     currencyImage.src = "./assets/dolar.png";
   }
